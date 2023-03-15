@@ -7,9 +7,10 @@ int main()
    for(; i<100; i=i+1)
     {
     sum=sum+i;
-    printf("%i+",i);
+    printf("%i+",i,sum);
         
     }
-   
+   sum=sum+i;
+printf("%i=%i",i,sum);
   
 }
